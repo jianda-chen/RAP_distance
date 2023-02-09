@@ -1,0 +1,26 @@
+channels:
+  - defaults
+dependencies:
+  - absl-py
+  - pyparsing
+  - ffmpeg
+  - patchelf
+  - pip
+  - pip:
+    - termcolor
+    - git+https://github.com/deepmind/dm_control.git@dc4f05c7d3fb7bf4556acc9824bde702aa1d0947
+    - git+https://github.com/1nadequacy/dmc2gym.git
+    - opencv-python
+    - pillow==6.1
+    - scikit-image
+    - scikit-video
+    - tb-nightly
+    - tqdm
+    - imageio
+    - imageio-ffmpeg
+    - pygame
+    - networkx
+    - dotmap
+    - kornia==0.5.1
+    - matplotlib
+    - git+https://github.com/wangguanzhi/robosuite.git

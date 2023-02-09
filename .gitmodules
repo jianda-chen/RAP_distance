@@ -1,0 +1,4 @@
+[submodule "secant"]
+	path = secant
+	url = https://github.com/jianda-chen/SECANT.git
+	branch = RAP
